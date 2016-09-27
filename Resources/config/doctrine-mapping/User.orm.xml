@@ -32,8 +32,6 @@
 
         <field name="passwordRequestedAt" column="password_requested_at" type="datetime" nullable="true" />
 
-        <field name="roles" column="roles" type="array" />
-
         <field name="credentialsExpired" column="credentials_expired" type="boolean" />
 
         <field name="credentialsExpireAt" column="credentials_expire_at" type="datetime" nullable="true" />
